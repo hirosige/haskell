@@ -5,5 +5,5 @@ maximum' (x:xs) = max x (maximum' xs)
 
 main :: IO ()
 main = do
-  let list = [3]::[Int]
+  let list = [1,2,3,4,5]::[Int]
   print $ maximum' list
