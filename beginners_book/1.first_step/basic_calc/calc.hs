@@ -5,7 +5,7 @@ main = do
   let result =  num1 * num2
   print result
 
-  let num3 = 1892::Integer
+  let num3 = 1893::Integer
   let num4 = 1472::Integer
   let result2 =  num3 - num4
   print result2
