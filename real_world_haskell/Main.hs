@@ -1,6 +1,10 @@
 module Main (main) where
 
+import PrettyJSON
 import SimpleJSON
+import Numeric
 
 main :: IO ()
-main = print (JObject [("foo", JNumber 1), ("bar", JBool False)])
+main = do
+  -- print $ renderJValue $ JBool True
+  print $ take 4 simpleEscapes
