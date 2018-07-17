@@ -1,0 +1,6 @@
+Configuring hvect-0.4.0.0...
+Preprocessing library for hvect-0.4.0.0..
+Building library for hvect-0.4.0.0..
+[1 of 1] Compiling Data.HVect       ( src/Data/HVect.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/HVect.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/hvect-0.4.0.0-BZUKr6QFEMaKJmj9hIo6uJ
+Registering library for hvect-0.4.0.0..

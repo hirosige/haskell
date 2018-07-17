@@ -1,0 +1,6 @@
+Configuring list-t-1.0.0.1...
+Preprocessing library for list-t-1.0.0.1..
+Building library for list-t-1.0.0.1..
+[1 of 1] Compiling ListT            ( library/ListT.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/ListT.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/list-t-1.0.0.1-CG82G3g3ypuJME5jk9AfmS
+Registering library for list-t-1.0.0.1..

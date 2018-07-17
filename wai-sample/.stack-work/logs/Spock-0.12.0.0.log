@@ -1,0 +1,15 @@
+Configuring Spock-0.12.0.0...
+Preprocessing library for Spock-0.12.0.0..
+Building library for Spock-0.12.0.0..
+
+[;1mon the commandline: [;1m[35mwarning:[0m[0m[;1m[0m[0m[;1m
+    -auto-all is deprecated: Use -fprof-auto instead[0m[0m
+[0m[0m[0m[1 of 7] Compiling Web.Spock.Internal.Types ( src/Web/Spock/Internal/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/Internal/Types.o )
+[2 of 7] Compiling Web.Spock.Internal.SessionVault ( src/Web/Spock/Internal/SessionVault.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/Internal/SessionVault.o )
+[3 of 7] Compiling Web.Spock.Internal.SessionManager ( src/Web/Spock/Internal/SessionManager.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/Internal/SessionManager.o )
+[4 of 7] Compiling Web.Spock.Internal.Monad ( src/Web/Spock/Internal/Monad.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/Internal/Monad.o )
+[5 of 7] Compiling Web.Spock.Config ( src/Web/Spock/Config.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/Config.o )
+[6 of 7] Compiling Web.Spock.SessionActions ( src/Web/Spock/SessionActions.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock/SessionActions.o )
+[7 of 7] Compiling Web.Spock        ( src/Web/Spock.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Web/Spock.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/Spock-0.12.0.0-HhX3IFTwPPJ5lx2A45jINy
+Registering library for Spock-0.12.0.0..

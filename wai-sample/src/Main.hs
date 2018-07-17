@@ -1,0 +1,30 @@
+{-# LANGUAGE OverloadedStrings #-}
+module Main where
+
+import Web.Spock
+import Web.Spock.Config
+
+import Control.Monad.Trans
+import Data.Monoid
+import Text.EDE
+import Data.IORef
+import qualified Data.Text as T
+
+data MySession = EmptySession
+data MyAppState = DummyAppState (IORef Int)
+
+main :: IO ()
+main =
+    do ref <- newIORef 0
+       spockCfg <- defaultSpockCfg EmptySession PCNoDatabase (DummyAppState ref)
+       runSpock 8080 (spock spockCfg app)
+
+app :: SpockM () MySession MyAppState ()
+app =
+    do get root $
+           html "test"
+       get ("hello" <//> var) $ \name ->
+           do (DummyAppState ref) <- getState
+              tpl <- eitherParseFile "index.html"
+              visitorNumber <- liftIO $ atomicModifyIORef' ref $ \i -> (i+1, i+1)
+              text ("Hello " <> name <> ", you are visitor number " <> T.pack (show visitorNumber))

@@ -1,0 +1,9 @@
+Configuring text-manipulate-0.2.0.1...
+Preprocessing library for text-manipulate-0.2.0.1..
+Building library for text-manipulate-0.2.0.1..
+[1 of 4] Compiling Data.Text.Manipulate.Internal.Types ( src/Data/Text/Manipulate/Internal/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Text/Manipulate/Internal/Types.o )
+[2 of 4] Compiling Data.Text.Manipulate.Internal.Fusion ( src/Data/Text/Manipulate/Internal/Fusion.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Text/Manipulate/Internal/Fusion.o )
+[3 of 4] Compiling Data.Text.Lazy.Manipulate ( src/Data/Text/Lazy/Manipulate.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Text/Lazy/Manipulate.o )
+[4 of 4] Compiling Data.Text.Manipulate ( src/Data/Text/Manipulate.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/Text/Manipulate.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/text-manipulate-0.2.0.1-J9neDIeY2415p9QDXLTr2v
+Registering library for text-manipulate-0.2.0.1..

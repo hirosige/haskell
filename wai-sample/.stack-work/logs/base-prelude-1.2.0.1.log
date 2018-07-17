@@ -1,0 +1,6 @@
+Configuring base-prelude-1.2.0.1...
+Preprocessing library for base-prelude-1.2.0.1..
+Building library for base-prelude-1.2.0.1..
+[1 of 1] Compiling BasePrelude      ( library/BasePrelude.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/BasePrelude.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/base-prelude-1.2.0.1-Jp4fn0lH8rP2DHoIPVF2qm
+Registering library for base-prelude-1.2.0.1..

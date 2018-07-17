@@ -1,0 +1,8 @@
+Configuring superbuffer-0.3.1.1...
+Preprocessing library for superbuffer-0.3.1.1..
+Building library for superbuffer-0.3.1.1..
+[1 of 3] Compiling Data.ByteString.SuperBuffer ( src/Data/ByteString/SuperBuffer.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/ByteString/SuperBuffer.o )
+[2 of 3] Compiling Data.ByteString.SuperBuffer.Pure ( src/Data/ByteString/SuperBuffer/Pure.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Data/ByteString/SuperBuffer/Pure.o )
+[3 of 3] Compiling Paths_superbuffer ( .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_superbuffer.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Paths_superbuffer.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/superbuffer-0.3.1.1-7AUhFiK7LXyLJ6IVvrj5R3
+Registering library for superbuffer-0.3.1.1..

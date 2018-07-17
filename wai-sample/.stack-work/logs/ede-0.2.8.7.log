@@ -1,0 +1,39 @@
+Configuring ede-0.2.8.7...
+Preprocessing library for ede-0.2.8.7..
+Building library for ede-0.2.8.7..
+[ 1 of 10] Compiling Paths_ede        ( .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/autogen/Paths_ede.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Paths_ede.o )
+[ 2 of 10] Compiling Text.EDE.Internal.Types ( src/Text/EDE/Internal/Types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Types.o )
+
+[;1msrc/Text/EDE/Internal/Types.hs:34:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m34 |[0m[0m [;1m[35mimport           Data.Foldable[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 3 of 10] Compiling Text.EDE.Internal.Syntax ( src/Text/EDE/Internal/Syntax.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Syntax.o )
+[ 4 of 10] Compiling Text.EDE.Internal.Quoting ( src/Text/EDE/Internal/Quoting.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Quoting.o )
+[ 5 of 10] Compiling Text.EDE.Internal.Filters ( src/Text/EDE/Internal/Filters.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Filters.o )
+
+[;1msrc/Text/EDE/Internal/Filters.hs:21:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m21 |[0m[0m [;1m[35mimport           Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 6 of 10] Compiling Text.EDE.Filters ( src/Text/EDE/Filters.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Filters.o )
+[ 7 of 10] Compiling Text.EDE.Internal.Eval ( src/Text/EDE/Internal/Eval.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Eval.o )
+
+[;1msrc/Text/EDE/Internal/Eval.hs:17:1: [;1m[35mwarning:[0m[0m[;1m [[;1m[35m-Wunused-imports[0m[0m[;1m][0m[0m[;1m
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()[0m[0m
+[;1m[34m   |[0m[0m
+[;1m[34m17 |[0m[0m [;1m[35mimport           Control.Applicative[0m[0m
+[;1m[34m   |[0m[0m[;1m[35m ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[0m[0m[ 8 of 10] Compiling Text.EDE.Internal.AST ( src/Text/EDE/Internal/AST.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/AST.o )
+[ 9 of 10] Compiling Text.EDE.Internal.Parser ( src/Text/EDE/Internal/Parser.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE/Internal/Parser.o )
+[10 of 10] Compiling Text.EDE         ( src/Text/EDE.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-2.0.1.0/build/Text/EDE.o )
+Installing library in /home/hiro/.stack/snapshots/x86_64-linux-nopie/lts-10.10/8.2.2/lib/x86_64-linux-ghc-8.2.2/ede-0.2.8.7-8unZPACRys35KOJXuSO4mB
+Registering library for ede-0.2.8.7..
